@@ -1,8 +1,17 @@
 ---
-layout: post
-myname: zhangsan
+layout: default
 ---
-
-这是一个post...
-
-{{page.myname}}
+<div class="container">
+	<table class="table">
+		<tr>
+			<th>num</th>
+			<th>name</th>
+			<th>age</th>
+		</tr>
+		<tr>
+			<td>#1</td>
+			<td>zhangsan</td>
+			<td>11</td>
+		</tr>
+	</table>
+</div>
