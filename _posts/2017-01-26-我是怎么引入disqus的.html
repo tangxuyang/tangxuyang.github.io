@@ -1,0 +1,52 @@
+---
+layout: post
+tags: ['static site']
+---
+在网上找了好久，国内都没有什么好的评论系统，最终还是选择了disqus。可惜这个玩意被墙了，又是伟大的防火墙干的好事。我也不管三七二十一，先用了再说。说件拉仇恨的事情，公司自带翻墙。  
+
+### 创建Disqus账号
+https://disqus.com/
+
+### 创建一个site
+https://disqus.com/admin/create/
+
+创建完后会给你一段代码，粘贴到你的页面里面就行了。我用的是jekyll，使用的是architect theme。它只提供了一个default.html的layout，我在项目中创建一个_layouts目录，其中放上一个名称为post.html。
+
+{% highlight liquid lineno %}
+{% raw %}
+---
+layout: default
+---
+
+{{ content }}
+{% include comments.html%}
+```
+
+其中comments.html是我创建的，放在了_includes目录里面。它的内容就是disqus给的那段代码。
+```
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://txyzqc.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
+{% endraw %}
+{% endhighlight %}
+
+其中会判断页面是否设置了comments，如果设置了才会带有评论！！
