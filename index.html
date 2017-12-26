@@ -3,11 +3,11 @@ layout: default
 ---
 <ul>
 {% for post in site.posts %}
-  {% if not post.hidden %}
+  {% unless post.hidden %}
 	<li>
 		<h2><a href="{{post.url}}">{{post.title}}</a></h2>
 		{{post.excerpt}}
 	</li>
-  {% endif %}
+  {% endunless %}
 {% endfor %}
 </ul>
