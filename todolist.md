@@ -1,0 +1,18 @@
+这里会列出当前要做的事情。  
+- 学习使用vim，并配置一个开发环境
+- 精通jekyll
+- 创建一个jekyll插件，用来实现为每一个tag生成一个列表页，这就需要熟悉ruby
+- static site
+- front end architect,这是一个长期的过程
+- css动画
+- bootstrap 4
+- 温习underscore源码
+- 复习vue
+- 学习Typescript
+- js TDD
+- jenkins集成
+- LFS - Linux from Scratch
+- docker
+- nginx
+- python
+- 
