@@ -1,11 +1,11 @@
 这里会列出当前要做的事情。  
 - 学习使用vim，并配置一个开发环境
-- 精通jekyll
+- 精通jekyll,liquid
 - 创建一个jekyll插件，用来实现为每一个tag生成一个列表页，这就需要熟悉ruby
 - static site
 - front end architect,这是一个长期的过程
 - css动画
-- bootstrap 4
+- bootstrap 4源码
 - 温习underscore源码
 - 复习vue
 - 学习Typescript
@@ -15,4 +15,34 @@
 - docker
 - nginx
 - python
+- webpack
+- react
+- RWD
+- SPA
+- Node
+- Ruby
+- Lisp
+- .net core
+- Kotlin
+- Visual Studio Code
+- Design Pattern
+- 微信开发
+- 软件工程
+- 系统分析师考试
+- Mongodb
+- MySQL
+- ReactiveJS
+- Element UI
+- jQuery源码
+- Vue源码
+- Babel
+- requireJS
+- seaJS
+- Http
+- TCP/IP
+- C/C++
+- C#
+- 函数式编程
+- 网络工程
+- linux
 - 
