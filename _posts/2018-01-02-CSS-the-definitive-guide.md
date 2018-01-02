@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 读CSS: the Definitive Guide
+title: 读CSS - the Definitive Guide
 tags: ['reading note']
 ---
 
