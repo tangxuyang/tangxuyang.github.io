@@ -12,6 +12,8 @@ layout: post
 gem install jekyll-theme-architect
 {% endhighlight %}
 
+/var/lib/gems/2.3.0/gems/jekyll-theme-architect-0.1.0，这是路径，如果想改模板可以到这里面去修改。
+
 看来还可以写几篇关于安装jenkins和jekyll的文章！  
 
 github上的每个库在设置里面都有一个webhooks的选项，只有给这个库配置了webhook，当代码提交时github才能通知到我们的jenkins服务。这里可以看出来，用的是推模式，而不是让jenkins轮巡的拉模式。还要配置jenkins的监听服务，就是图中的payload。  
