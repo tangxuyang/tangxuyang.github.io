@@ -14,7 +14,7 @@ jstestdriver主要是做js的单元测试的，以我的理解它应该只能做
 
 ### 下载
 地址：https://code.google.com/archive/p/js-test-driver/  
-国内网络估计访问不到google的东西，可以在(这里)[/attachements/jstestdriver-1.3.5.jar]下载  
+国内网络估计访问不到google的东西，可以在[这里](/attachements/jstestdriver-1.3.5.jar)下载  
 这是最新版的了，而且已经好久没有更新过了，不过满足我当前需求是没问题的呢。
 
 其实我总感觉google是不是太低调了，这么好的思路的测试框架为什么不能给个单独的官网，非得放在archive下，天呀，这是暴殄天物吗？
@@ -57,7 +57,7 @@ load:
 
 然后命令行切换到根目录，运行:java -jar %JSTESTDRIVER% --test all。这样就能测试了
 
-我把jstestdriver的文档拷贝了一份放到了pdf中，可以(参考)[/attachements/jstestdriver-doc.pdf]
+我把jstestdriver的文档拷贝了一份放到了pdf中，可以[参考](/attachements/jstestdriver-doc.pdf)
 
 ### 跟kenjins集成
 这个先放放，还没有实践呢
