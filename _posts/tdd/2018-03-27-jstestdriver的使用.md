@@ -59,6 +59,6 @@ load:
 
 我把jstestdriver的文档拷贝了一份放到了pdf中，可以[参考](/attachments/jstestdriver-doc.pdf)
 
-### 跟kenjins集成
-这个先放放，还没有实践呢  
-TODO:::
+### 跟jenkins集成
+我想我有点绝望了！我现在有台服务器是linux的，不过是命令行模式的，根本就不能运行chrome这些浏览器，怎么跟jenkins集成？我想如果要集成至少要有一台别的GUI桌面的机器可以运行浏览器吧，看来我这个打算暂时要搁浅了。
+
