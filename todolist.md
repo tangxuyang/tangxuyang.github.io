@@ -1,3 +1,6 @@
+---
+layout: post
+---
 这里会列出当前要做的事情。  
 - 学习使用vim，并配置一个开发环境
 - 精通jekyll,liquid
