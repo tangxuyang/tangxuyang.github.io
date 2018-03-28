@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 ---
 
 总结一下我是怎么把github pages同步到自己的服务器上的。我也不知道我为什么要把github pages同步到自己的服务器上，或许只是单纯的想再熟悉一下jenkins和jekyll吧！  

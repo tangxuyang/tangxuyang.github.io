@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 ---
 ### 简单介绍
 我是在读《test-driven javascript development》时知道jstestdriver的。感觉还是挺好的。同时我一直以来都想把tdd的概念运用到自己的实际工作中，从而结束那种不敢修改的局面，也让自己的代码更健壮，更大胆的进行重构，毕竟重构的前提就是要有solid的测试作保证。  
