@@ -36,3 +36,6 @@ github上的每个库在设置里面都有一个webhooks的选项，只有给这
 jekyll build -d /home/username/projectname/_site
 {%endhighlight%}
 我们是借助jekyll build的d选项，设置了目的文件夹。(2018-03-29)
+
+
+
