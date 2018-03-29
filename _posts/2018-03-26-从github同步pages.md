@@ -37,5 +37,3 @@ jekyll build -d /home/username/projectname/_site
 {%endhighlight%}
 我们是借助jekyll build的d选项，设置了目的文件夹。(2018-03-29)
 
-
-
