@@ -29,5 +29,10 @@ github上的每个库在设置里面都有一个webhooks的选项，只有给这
 
 至此，就弄完了！
 
-可以编辑一下文件，提交上去测试一下了！
+可以编辑一下文件，提交上去测试一下了！(2018-03-26)
 
+这两天重新熟悉Jenkins，发现上面的过程会有一个问题，当然不影响使用，问题是，会从GitHub拉两次代码，这不是浪费人家GitHub的资源吗？好吧，我承认，主要是国内网络太差，我不想等那么久。可以把【Execute Shell】中的git pull干掉，最终版本是:
+{%highlight shell%}
+jekyll build -d /home/username/projectname/_site
+{%endhighlight%}
+我们是借助jekyll build的d选项，设置了目的文件夹。(2018-03-29)
