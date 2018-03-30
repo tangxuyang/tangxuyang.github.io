@@ -37,3 +37,11 @@ jekyll build -d /home/username/projectname/_site
 {%endhighlight%}
 我们是借助jekyll build的d选项，设置了目的文件夹。(2018-03-29)
 
+
+以上的Jenkins项目是自由风格的项目，我曾尝试用Pipeline的项目来实现这个功能，不过我失败了，虽然失败了，但是我认为可能是我对Pipeline的理解不够深刻，我先把这个失败记录一下，等我对Pipeline深入了解后说不定有解决方案呢。
+
+1. 创建一个Pipeline的项目在Jenkins中
+2. 在【构建触发器】中勾选"Github hook trigger for GITScm polling"
+3. 编写Pipeline script
+
+我的问题是根本监听不到github上的push。我对比了之前的自由风格的项目，自由风格的项目中多了一个【源码管理】，我不知道有没有关系。希望我可以很快解决这个问题。(2018-03-30)
