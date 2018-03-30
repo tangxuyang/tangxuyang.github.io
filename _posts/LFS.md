@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 我的LFS之旅
+date: 2017-12-27 12:00
 ---
 
 ### 在虚拟机中安装Ubuntu16.04.3
