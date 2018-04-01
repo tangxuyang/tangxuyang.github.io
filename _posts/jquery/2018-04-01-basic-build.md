@@ -1,6 +1,6 @@
 ---
-layout:post
 permalink: /jquery-basic-build.html
+layout:post
 ---
 
 jQuery使用grunt作为构建工具，针对jQuery的构建做了深度的定制。在基本构建中我们只是把build/tasks/build.js引入进来，它的用处是把模块化开发的jQuery源码编译成一整个文件。
