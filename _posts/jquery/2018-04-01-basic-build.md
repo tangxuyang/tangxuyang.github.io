@@ -24,5 +24,5 @@ npm install -g grunt-cli
 npm install --save-dev grunt load-grunt-tasks requirejs insight strip-json-comments
 {% endhighlight %}
 
-至此基本构建已经完成了，我把它放到了[basic-build](https://github.com/tangxuyang/myjquery)中的basic-build分支了！
+至此基本构建已经完成了，我把它放到了[myjquery](https://github.com/tangxuyang/myjquery/tree/basic-build)中的basic-build分支了！
 
