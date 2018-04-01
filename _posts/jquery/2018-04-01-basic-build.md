@@ -18,10 +18,10 @@ jQuery使用grunt作为构建工具，针对jQuery的构建做了深度的定制
 
 我们还需要安装一些依赖的npm包，首先是要全局安装grunt-cli，然后是局部的grunt、load-grunt-tasks、requirejs、insight
 
-{% highlight shell %
+{% highlight shell %}
 npm install -g grunt-cli
 npm install --save-dev grunt load-grunt-tasks requirejs insight strip-json-comments
-{% endhighlight %}}
+{% endhighlight %}
 
 至此基本构建已经完成了，我把它放到了[basic-build](https://github.com/tangxuyang/myjquery)中的basic-build分支了！
 
