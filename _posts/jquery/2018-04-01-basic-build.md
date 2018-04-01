@@ -1,6 +1,6 @@
 ---
 permalink: /jquery-basic-build.html
-layout:post
+layout: post
 title: jquery basic build
 ---
 
